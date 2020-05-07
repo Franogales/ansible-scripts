@@ -1,6 +1,5 @@
 ---
 - name: Ansible Playbook to install telnet package on CentOS/RHEL
- hosts: all
  become: yes
  tasks:
  - name: Installing telnet on Server
